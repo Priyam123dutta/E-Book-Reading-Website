@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: brown;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.banner {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: blue;
+    margin:auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    padding-bottom: 60px;
+}
+.box {
+    background-color:aqua;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.head {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.head button {
+    background-color: transparent;
+    border: none;
+}
